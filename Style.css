@@ -1,58 +1,62 @@
 body{
-    background-color: #31586f;
-    font-family: 'Oshwald', sans-serif;
-    overflow-y: hidden;
-  }
-  .signup-box{
+  background-color: #31586f;
+  font-family: 'Oshwald', sans-serif;
+}
+
+
+.logo{
+  margin: -20px;
+  margin-top: 15px;
+
+}
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+h1{
+  display: flex;
+  margin: 10px;
+  margin-bottom: -25px;
+}
+
+/*Box design*/
+
+.signup-box,
+.login-box,
+.Forget-box
+{
       width: 360px;
       height:600px;
       margin: auto;
       background-color: aliceblue;
       border-radius: 4px;
   }
-/* Login */
-
-.login-box{
-    width: 360px;
-    height: 590px;
-    margin: auto;
-    border-radius: 4px;
-    background-color: aliceblue;
-
-  }
-  .Forget-box{
-    width: 360px;
-    height: 190px;
-    margin: auto;
-    border-radius: 4px;
-    background-color: aliceblue;
-  }
 
   h5{
-    text-align: left;    
-    padding-inline: 20px;
+    text-align: left;
+    font-size: 18px;  
+    padding-inline: 25px;
     padding-top: 20px;
-  }
-  
-  h1{ 
-      text-align: center;
-      padding-top: 15px;
   
   }
   
   h2{
-      text-align: center; 
+      text-align: left; 
   }
   
   form{
       width: 300px;
       margin-left: 20px;
+  
   }
   
   form label{
       display: flex;
       margin-top: 20px;
       font-size: 18px;
+      
   }
   
   form input{
@@ -62,15 +66,16 @@ body{
       border: 1px solid gray;
       border-radius: 6px;
       outline: none;
+      background-color: #f2f2f2;
   }
   
-  input[type="button"]{
+  input[type="submit"]{
       width: 320px;
       height: 35px;
       margin-top: 20px;
       border: none;
-      background-color:#49c1a2;
-      color:white;
+      background-color:#31586f;
+      color: white;
       font-size: 18px;
   }
   P{
@@ -78,50 +83,45 @@ body{
     padding-top: 20px;
     font-size: 15px;
   }
-
-  input[type="button1"]{
-      width: 320px;
-      height: 35px;
-      margin-top: 20px;
-      border: none;
-      background-color:#49c1a2;
-      color:white;
-      font-size: 18px;
-  }
   
-  
-  .C-2{
+  .C-2,
+  .C-3,
+  .C-4{
       text-align:center;
       color: black;
       font-size: 15px;
       margin: -10px;
   }
   
-  .C-2 a{
-      color: #49c1a2;
-  }
- /*Login*/
-
-  .C-3{
-    text-align:center;
-    color: black;
-    font-size: 15px;
-    margin: -10px;
-}
-
-.C-3 a{
-    color: #49c1a2;
-}
-  .C-4{
-    text-align: center;
-    font-size: 12px;
-    margin: -10px;
+  .C-2 a,
+  .C-3 a,
+  .C-4 a{
+      color: #31586f;
+     
   }
 
-  .C-4 a {
-    color: #49c1a2;
+
+  @media screen and (max-width: 600px) {
+    .signup-box,
+    .login-box, 
+    .Forget-box {
+      width: 80%;
+      margin: auto;
+    }
+  
+    form {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    input[type="submit"] {
+      width: 100%;
+    }
+  
+    h5 {
+      padding-inline: 10px;
+    }
   }
 
-  @media screen (470 px){
-    
-  }
+
+
