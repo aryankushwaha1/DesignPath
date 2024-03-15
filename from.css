@@ -1,0 +1,86 @@
+body {
+    background-color: #31586f;
+    font-family: 'Oshwald', sans-serif;
+}
+
+
+.logo {
+    margin: -20px;
+    margin-top: 15px;
+
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    display: flex;
+    margin: 10px;
+    margin-bottom: -25px;
+}
+
+/*Box design*/
+
+.form {
+    width: 360px;
+    height: 1300px;
+    margin: auto;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: left;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    background-color: #f2f2f2;
+}
+
+form1 input {
+    width: 100%;
+    height: 70px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    background-color: #f2f2f2;
+    text-align: justify;
+}
+
+input[type="submit"] {
+    width: 90px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 225px;
+    border: none;
+    background-color: #31586f;
+    color: white;
+    font-size: 18px;
+    border-radius: 60px;
+}
+
+
