@@ -165,51 +165,46 @@ button[type="button"] {
 }
 
 .circle1 {
-  width: 12px;
-  height: 12px;
-  margin: 5px 135px;
+  width: 10px;
+  height: 10px;
+  margin: 2px 140px;
   background-color: rgb(68, 66, 66);
-  /* or any color you want */
   border-radius: 50%;
   border: 4px solid black;
 }
 
 .circle2 {
-  width: 12px;
-  height: 12px;
-  margin: 5px 135px;
+  width: 10px;
+  height: 10px;
+  margin: 2px 140px;
   background-color: rgb(68, 66, 66);
-  /* or any color you want */
   border-radius: 50%;
   border: 4px solid black;
 }
 
 .circle3 {
-  width: 12px;
-  height: 12px;
-  margin: 5px 135px;
+  width: 10px;
+  height: 10px;
+  margin: 2px 140px;
   background-color: rgb(68, 66, 66);
-  /* or any color you want */
   border-radius: 50%;
   border: 4px solid black;
 }
 
 .circle4 {
-  width: 12px;
-  height: 12px;
-  margin: -20px;
+  width: 10px;
+  height: 10px;
+  margin: -22px;
   background-color: rgb(68, 66, 66);
-  /* or any color you want */
   border-radius: 50%;
   border: 4px solid black;
 }
 
 .circle5 {
-  width: 12px;
-  height: 12px;
-  margin: -20px;
+  width: 10px;
+  height: 10px;
+  margin: -22px;
   background-color: rgb(68, 66, 66);
-  /* or any color you want */
   border-radius: 50%;
   border: 4px solid black;
 }
